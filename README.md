@@ -1,7 +1,7 @@
-# Loungeo
-Loungeo is a single page e-commerce web application created utilizing React and Node/Express. This project was created by a team of three engineers at QNK Industries.
+# Project ECOM
+Project ECOM is a single page e-commerce web application created utilizing React and Node/Express. This project was created by a team of three engineers at DJAM Industries.
 
-![Screenshot](https://imgur.com/cDKIAv3.gif)
+![Screenshot](https://i.makeagif.com/media/2-25-2022/zsFKJB.gif)
 
 ## :heavy_check_mark: Features
 
@@ -40,14 +40,15 @@ npm install
 
 ## Setup
 * Rename tokens.example.js to tokens.js
-* Replace GITHUB_KEY with Personal Access Token
+* Create a .env file
+* Add HR_TOKEN=githubtoken
 
 
 In two different terminals run
 
 ```
-npm start
-npm run build-client
+npm run react-prod
+npm run startprod
 ```
 
 open
@@ -56,20 +57,6 @@ open
 http://localhost:3000/
 
 ```
-
-## :heavy_check_mark: Microservices Setup
-* Input appropiate URLs to server/apiconfig.js
-* This will set the Atelier/backend service URL's based on the environment variable API_MODE
-
-In terminal run either
-```
-npm run start-ind-api
-```
-for individual mode or
-```
-npm run start-team-api
-```
-for team mode
 
 ## :heavy_check_mark: Credit
 DJAM Industries is
