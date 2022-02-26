@@ -39,9 +39,8 @@ npm install
 ```
 
 ## Setup
-* Rename tokens.example.js to tokens.js
 * Create a .env file
-* Add HR_TOKEN=githubtoken
+* Add HR_TOKEN=githubtoken to the .env file
 
 
 In two different terminals run
